@@ -1,4 +1,4 @@
-document.getElementById('movingButton').addEventListener('mouseover', moveButton);
+document.getElementById('movingButton').addEventListener('click', moveButton);
 
 function moveButton() {
   var button = document.getElementById('movingButton');
