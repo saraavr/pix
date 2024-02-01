@@ -2,8 +2,8 @@ document.getElementById('movingButton').addEventListener('click', moveButton);
 
 function moveButton() {
   var button = document.getElementById('movingButton');
-  var newX = Math.random() * window.innerWidth%150;
-  var newY = Math.random() * window.innerHeight%100;
+  var newX = Math.random() * window.innerWidth;
+  var newY = Math.random() * window.innerHeight;
   button.style.transform = 'translate(' + newX + 'px, ' + newY + 'px)';
 }
 
