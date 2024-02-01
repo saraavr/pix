@@ -5,7 +5,7 @@
 .sim{
   font-family: courier new;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 30px;
     color: White;
   background: green;
   border:2px solid green;
@@ -20,7 +20,7 @@ body {
 .button {
     font-family: courier new;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 30px;
     color: White;
   background: green;
   border:2px solid green;
